@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    border: 1px solid;
+    padding: 1rem;
+    display: flex;
+}
+.card
+{
+    width:300px;
+    border: 1px solid;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cardtitle
+{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.cardimg
+{
+    width: 70%;
+    object-fit: cover;
+}
+.carddesc
+{
+    font-size: 1.2rem;
+}
+.cardbtn
+{
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    border-radius: 12px;
+}
+.cardprice
+{
+    font-size: 1.6rem;
+}
